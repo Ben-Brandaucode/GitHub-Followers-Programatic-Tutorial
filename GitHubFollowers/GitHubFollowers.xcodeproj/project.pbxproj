@@ -16,6 +16,7 @@
 		BFBCED20256B4CF50007F78A /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBCED1F256B4CF50007F78A /* FavoritesListVC.swift */; };
 		BFBCED23256B57130007F78A /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBCED22256B57130007F78A /* GFButton.swift */; };
 		BFBCED26256B5C3F0007F78A /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBCED25256B5C3F0007F78A /* GFTextField.swift */; };
+		BFBCED2A257049450007F78A /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBCED29257049450007F78A /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BFBCED1F256B4CF50007F78A /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		BFBCED22256B57130007F78A /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		BFBCED25256B5C3F0007F78A /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		BFBCED29257049450007F78A /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BFBCED1F256B4CF50007F78A /* FavoritesListVC.swift */,
 				BFBCED22256B57130007F78A /* GFButton.swift */,
 				BFBCED25256B5C3F0007F78A /* GFTextField.swift */,
+				BFBCED29257049450007F78A /* FollowerListVC.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				BFBCED20256B4CF50007F78A /* FavoritesListVC.swift in Sources */,
 				BFBCED06256B40A50007F78A /* AppDelegate.swift in Sources */,
 				BFBCED08256B40A50007F78A /* SceneDelegate.swift in Sources */,
+				BFBCED2A257049450007F78A /* FollowerListVC.swift in Sources */,
 				BFBCED26256B5C3F0007F78A /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
