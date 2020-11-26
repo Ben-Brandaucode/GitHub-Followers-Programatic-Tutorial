@@ -10,7 +10,7 @@ import UIKit
 class SearchVC: UIViewController {
 
     let logoImageView = UIImageView()
-    let usermameTextField = GFTextField()
+    let userNameTextField = GFTextField()
     let callToActonButton = GFButton(backgroundColor: .systemGreen, title: "Git Followers")
    
     
@@ -18,6 +18,8 @@ class SearchVC: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         configureLogoImageView()
+        configureTextField()
+        configureCallToActionButton()
 }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -38,5 +40,28 @@ class SearchVC: UIViewController {
             logoImageView.widthAnchor.constraint(equalToConstant: 200)
         ])
     }
+    
+    func configureTextField(){
+        view.addSubview(userNameTextField)
+        
+        NSLayoutConstraint.activate([
+            userNameTextField.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 48),
+            userNameTextField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
+            userNameTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
+            userNameTextField.heightAnchor.constraint(equalToConstant: 50)
+        
+        ])
+    }
+
+    func configureCallToActionButton(){
+        view.addSubview(callToActonButton)
+        NSLayoutConstraint.activate([
+            callToActonButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
+            callToActonButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50),
+            callToActonButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
+            callToActonButton.heightAnchor.constraint(equalToConstant: 50)
+        ])
+    }
+
 }
 
