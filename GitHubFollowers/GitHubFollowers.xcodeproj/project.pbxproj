@@ -72,23 +72,55 @@
 		BFBCED04256B40A50007F78A /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				BFBCED3C2573438B0007F78A /* Support */,
+				BFBCED3B257343240007F78A /* extensions */,
+				BFBCED3A257342B30007F78A /* Custom Views */,
+				BFBCED39257342A90007F78A /* Screens */,
 				BFBCED05256B40A50007F78A /* AppDelegate.swift */,
 				BFBCED07256B40A50007F78A /* SceneDelegate.swift */,
 				BFBCED09256B40A50007F78A /* ViewController.swift */,
 				BFBCED0E256B40A80007F78A /* Assets.xcassets */,
 				BFBCED10256B40A80007F78A /* LaunchScreen.storyboard */,
 				BFBCED13256B40A80007F78A /* Info.plist */,
-				BFBCED1C256B4CAC0007F78A /* SearchVC.swift */,
-				BFBCED1F256B4CF50007F78A /* FavoritesListVC.swift */,
-				BFBCED22256B57130007F78A /* GFButton.swift */,
-				BFBCED25256B5C3F0007F78A /* GFTextField.swift */,
-				BFBCED29257049450007F78A /* FollowerListVC.swift */,
-				BFBCED2C2571FDDB0007F78A /* GFTitleLabel.swift */,
-				BFBCED2F2571FF9B0007F78A /* GFBodyLabel.swift */,
-				BFBCED322572020A0007F78A /* GFAlertVC.swift */,
-				BFBCED3525733D760007F78A /* UIViewcontroller+ext.swift */,
 			);
 			path = GitHubFollowers;
+			sourceTree = "<group>";
+		};
+		BFBCED39257342A90007F78A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BFBCED1C256B4CAC0007F78A /* SearchVC.swift */,
+				BFBCED1F256B4CF50007F78A /* FavoritesListVC.swift */,
+				BFBCED29257049450007F78A /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BFBCED3A257342B30007F78A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFBCED322572020A0007F78A /* GFAlertVC.swift */,
+				BFBCED22256B57130007F78A /* GFButton.swift */,
+				BFBCED25256B5C3F0007F78A /* GFTextField.swift */,
+				BFBCED2C2571FDDB0007F78A /* GFTitleLabel.swift */,
+				BFBCED2F2571FF9B0007F78A /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		BFBCED3B257343240007F78A /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BFBCED3525733D760007F78A /* UIViewcontroller+ext.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		BFBCED3C2573438B0007F78A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
