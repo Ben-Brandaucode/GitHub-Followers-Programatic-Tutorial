@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF69C35F25784893004B00CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69C35E25784893004B00CC /* NetworkManager.swift */; };
 		BFBCED06256B40A50007F78A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBCED05256B40A50007F78A /* AppDelegate.swift */; };
 		BFBCED08256B40A50007F78A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBCED07256B40A50007F78A /* SceneDelegate.swift */; };
 		BFBCED0A256B40A50007F78A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBCED09256B40A50007F78A /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF69C35E25784893004B00CC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		BFBCED02256B40A50007F78A /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBCED05256B40A50007F78A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBCED07256B40A50007F78A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF69C35D25784873004B00CC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BF69C35E25784893004B00CC /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		BFBCECF9256B40A50007F78A = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,8 @@
 		BFBCED04256B40A50007F78A /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				BF69C35D25784873004B00CC /* Managers */,
+				BFBCED13256B40A80007F78A /* Info.plist */,
 				BFBCED3E25783B760007F78A /* Model */,
 				BFBCED3C2573438B0007F78A /* Support */,
 				BFBCED3B257343240007F78A /* extensions */,
@@ -123,7 +135,6 @@
 				BFBCED07256B40A50007F78A /* SceneDelegate.swift */,
 				BFBCED0E256B40A80007F78A /* Assets.xcassets */,
 				BFBCED10256B40A80007F78A /* LaunchScreen.storyboard */,
-				BFBCED13256B40A80007F78A /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -218,6 +229,7 @@
 				BFBCED08256B40A50007F78A /* SceneDelegate.swift in Sources */,
 				BFBCED2D2571FDDB0007F78A /* GFTitleLabel.swift in Sources */,
 				BFBCED2A257049450007F78A /* FollowerListVC.swift in Sources */,
+				BF69C35F25784893004B00CC /* NetworkManager.swift in Sources */,
 				BFBCED26256B5C3F0007F78A /* GFTextField.swift in Sources */,
 				BFBCED302571FF9B0007F78A /* GFBodyLabel.swift in Sources */,
 			);
