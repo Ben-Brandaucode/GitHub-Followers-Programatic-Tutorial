@@ -11,11 +11,11 @@ class SearchVC: UIViewController {
 
     let logoImageView = UIImageView()
     let userNameTextField = GFTextField()
-    let callToActonButton = GFButton(backgroundColor: .systemGreen, title: "Git Followers")
+    let callToActonButton = GFButton(backgroundColor: .systemGreen, title: "Get Followers")
     
     var isUserNameEntered: Bool{return !userNameTextField.text!.isEmpty}
-   
-    
+
+    //ViewLifecycles
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -30,6 +30,8 @@ class SearchVC: UIViewController {
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
+    // support Funcxtions
+    
     func createDismissKeyboardTapGesture(){
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:)))
         view.addGestureRecognizer(tap)
@@ -37,7 +39,7 @@ class SearchVC: UIViewController {
     
     @objc func pushFollowerListVC(){
         guard isUserNameEntered else {
-            presentGFAlertOnMainThread(title: "Empty User Name", message: "We need you to enter a username so we know who to look for😀", buttonTitle: " Gotcha")
+            presentGFAlertOnMainThread(title: "Empty User Name", message: " we know who to look for😀", buttonTitle: " Gotcha")
             return
         }
         let followerListVC = FollowerListVC()

@@ -21,13 +21,14 @@ class GFTextField: UITextField {
         translatesAutoresizingMaskIntoConstraints = false
         
         layer.cornerRadius      = 10
-        layer.borderWidth       = 5
-        layer.borderColor       = UIColor.systemBlue.cgColor
+        layer.borderWidth       = 2
+        layer.borderColor       = UIColor.systemGray4.cgColor
         
         textColor               = .label
         tintColor               = .label
         textAlignment           = .center
-        font = UIFont.preferredFont(forTextStyle: .title2)
+        font                    = UIFont.preferredFont(forTextStyle: .title2)
+        adjustsFontSizeToFitWidth = true
         minimumFontSize         = 12
         
         backgroundColor         = .tertiarySystemBackground
